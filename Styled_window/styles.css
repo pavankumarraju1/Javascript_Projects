@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(8, 123, 242);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 123, 242, 0.8492647058823529) 0%,
+    rgba(34, 24, 152, 1) 36%,
+    rgba(2, 2, 78, 1) 100%
+  );
+  color: white;
+}
+
+header,
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border:5px solid #00FFCA;
+}
+
+.btn:hover {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.hidden {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    line-height: 3rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1.5rem 0;
+    position: absolute;
+    bottom: 10rem;
+    left: 24rem;
+    backdrop-filter: blur(100px);
+    font-size: 1.3rem;
+    /* overflow: scroll; */
+}
+
+.flow{
+  overflow:scroll;
+}
+
+.cancel{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    position: absolute;
+    right:2rem;
+}
+
+.cancel:hover{
+    background-color: red;
+}
+
+
+.abttxt{
+    display: none;
+}
+
+.pavskills{
+    display: none;
+}
+
+.pavimg{
+    display: none;
+} 
